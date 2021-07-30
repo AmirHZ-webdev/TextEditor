@@ -54,3 +54,10 @@ body{
 .button:hover{
     transform: scale(1.2);
 }
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}

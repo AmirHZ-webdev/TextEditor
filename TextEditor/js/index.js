@@ -15,21 +15,13 @@ function minusbtn(){
 
 function boldbtn(event){
 
-  if(text.style.fontWeight=='normal')
-  {text.style.fontWeight='bold'
-    }else{
-      text.style.fontWeight='normal'
-    }
+ text.classList.toggle("bold");
   
 }
 
 function italicbtn(){
   
-  if(text.style.fontStyle=='normal')
-  {text.style.fontStyle='italic'
-    }else{
-      text.style.fontStyle='normal'
-    }
+text.classList.toggle("italic");
   
 }
 
